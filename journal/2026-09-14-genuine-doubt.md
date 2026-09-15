@@ -24,13 +24,13 @@ In lieu of a doubt, my "design question" is pretty granular at this point and it
 
 I may try to start with javascript and then if it's too hard move to a game engine, for a different flavor of hard.
 
-How much can you deform a slider in p5?
+How much can you deform a slider in p5? (not at all! createSlider is just an easy way to make an html input type="range" element)
 <https://p5js.org/reference/p5/createSlider/>
 
 I imagine you'd have to create something from scratch. An svg path and then a handle object that is grabbable and moves along it.
 
 I feel like the last time I tried doing something with svg in p5 is was weird/hard? it's been a long time.
-[https://p5js.org/reference/p5/p5.Vector/](https://github.com/processing/p5.js/issues/458)
+[p5.js/dealing with svg](https://github.com/processing/p5.js/issues/458)
 
 I really just want to draw some lines in a vector art program and pop them in. Maybe that's a paper.js thing instead of a p5 thing. Or use a game engine, which feels like immense overkill for just this but not for the whole idea that it slots into.
 
