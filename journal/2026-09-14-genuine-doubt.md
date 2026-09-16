@@ -50,4 +50,4 @@ also here are some chiromancy (palmistry) links:
 
 ---
 
-[^1]: One day maybe I'll do an accompanying program with a 3d a phrenology head that you punch and mold to make a character into whatever eugenics bullshit personality profile is supposed to go with whatever head shape.
+[^1]: One day maybe I'll do an accompanying program with a 3d phrenology head that you punch and mold to make a character into whatever eugenics bullshit personality profile is supposed to go with whatever head shape.
