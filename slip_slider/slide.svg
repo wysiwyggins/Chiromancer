@@ -1,45 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   id="svg"
-   viewBox="0 20 100 60"
-   version="1.1"
-   sodipodi:docname="slide.svg"
-   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="5.5863074"
-     inkscape:cx="69.097522"
-     inkscape:cy="38.307953"
-     inkscape:window-width="1432"
-     inkscape:window-height="807"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg" />
-  <path
-     id="thePath"
-     d="M 0,75 C 33.417392,68.197653 18.340951,47.163424 26.970066,49.430673 29.539273,50.105716 44.077934,58.708921 50,50 55.449271,41.986366 78.069647,46.693759 83.293465,39.43614 85.753958,36.017696 88.577997,25 100,25"
-     sodipodi:nodetypes="csssc" />
-  <circle
-     id="thumb"
-     cx="50"
-     cy="50"
-     r="4" />
-  <text
-     id="txt"
-     x="50"
-     y="50">50</text>
+ <svg id="svg" viewBox="0 0 240 420">
+  <path id="track" fill="none" stroke="#cfd6d7" stroke-width="18"
+        stroke-linecap="round" stroke-linejoin="round"
+        d="M 60 378 C 60 336, 112 326, 112 286 S 58 236, 70 196 S 152 156, 150 114 S 118 66, 164 42"/>
+
+  <path id="fill" fill="none" stroke="#be3a2b" stroke-width="18"
+        stroke-linecap="round" stroke-linejoin="round"
+        d="M 60 378 C 60 336, 112 326, 112 286 S 58 236, 70 196 S 152 156, 150 114 S 118 66, 164 42"/>
 </svg>

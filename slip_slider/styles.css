@@ -1,39 +1,10 @@
 body {
   background-color: rgb(255, 178, 36);
-}
-#wrap {
-  width: 50vh;
-  height:30vh;
-  position:absolute;
-  left:0;right:0;top:0;bottom:0;
-  padding: 2em;
-  margin:auto;
-  
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
-svg {
-  overflow: visible;
-  display: block;
-}
-#thePath {
-  stroke: white;
-  fill: none;
-  stroke-width:2px;
-  stroke-linecap: round;
-}
-#thumb{fill:white;}
-[type="range"] {
- visibility:hidden;
-}
+svg { width: min(90vw, 320px); height: auto; }
 
-text {
-  font-family:consolas;
-  dominant-baseline: central;
-  text-anchor: middle;
-  font-size: 4px;
-  pointer-events: none;
-  fill:rgb(255, 178, 36);
-}
-svg text::selection {
-  background: none;
-}
+input[type="range"] { width: min(90vw, 320px); accent-color: #be3a2b; }
