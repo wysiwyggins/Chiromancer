@@ -1,10 +1,43 @@
+:root {
+  --accent: #be3a2b;
+  --track: #cfd6d7;
+  --background: rgb(255, 178, 36);
+  --control-width: min(90vw, 320px);
+}
+
 body {
-  background-color: rgb(255, 178, 36);
+  background-color: var(--background);
   min-height: 100vh;
   display: grid;
   place-items: center;
 }
 
-svg { width: min(90vw, 320px); height: auto; }
+svg { width: var(--control-width); height: auto; }
 
-input[type="range"] { width: min(90vw, 320px); accent-color: #be3a2b; }
+.ribbon {
+  fill: none;
+  stroke-width: 18;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ribbon--track { stroke: var(--track); }
+.ribbon--fill  { stroke: var(--accent); }
+
+.controls {
+  width: var(--control-width);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+input[type="range"] { flex: 1; min-width: 0; accent-color: var(--accent); }
+
+.readout {
+  flex: none;
+  width: 3ch;
+  text-align: right;
+  font: 600 18px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+}
