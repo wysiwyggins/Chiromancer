@@ -1,0 +1,21 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./styles.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+ <svg id="svg" viewBox="0 0 240 420">
+  <path id="track" class="ribbon ribbon--track"
+        d="M 60 378 C 60 336, 112 326, 112 286 S 58 236, 70 196 S 152 156, 150 114 S 118 66, 164 42"/>
+
+  <path id="fill" class="ribbon ribbon--fill"
+        d="M 60 378 C 60 336, 112 326, 112 286 S 58 236, 70 196 S 152 156, 150 114 S 118 66, 164 42"/>
+</svg>
+
+<div class="controls">
+  <input id="rangeslider" type="range" min="0" max="100" value="50" step="1">
+  <output id="readout" class="readout" for="rangeslider">50</output>
+</div>
+
+</body>
+    <script type="text/javascript" src="./slider.js"></script>
+</html>
