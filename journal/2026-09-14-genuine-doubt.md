@@ -4,7 +4,7 @@ author: Wiley Wiggins
 project: "Chiromancer"
 ---
 
-#### Chiromancer
+# Chiromancer
 
 Thoughts about a possible first prototype for Materializing Design '26 building off the ideas from Benjamin's Fate and Character essay, and my ideas about rpg "stats":
 
@@ -14,7 +14,7 @@ Thoughts about a possible first prototype for Materializing Design '26 building 
 
 - Ideally the interface for this would be slider handles *on the irregular palm lines themselves.* you could tab-cycle through them, revealing the handles and names of the lines.
 
-#### Slip n' Slider?
+# Slip n' Slider?
 
 Our first project is supposed to be small enough to fit in a 4 week sprint. So maybe I will start with just a slider that can move on a deformed path, which might be funny on its own as a UI element in a sort of Pippin-esque way.
 

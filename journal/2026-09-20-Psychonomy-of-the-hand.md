@@ -1,8 +1,10 @@
 ---
 date: 2026-09-20
 author: Wiley Wiggins
-project: "Psychonomy of the Hand"
+project: "Chiromancer"
 ---
+
+# *Psychonomy of the Hand*
 
 ![Psychonomy of the hand gold embossed tri-hand logo](../assets/images/psychonomy.png)
 

@@ -1,8 +1,10 @@
 ---
 date: 2026-09-15
 author: Wiley Wiggins
-project: "Separate slider"
+project: "Chiromancer"
 ---
+
+# Separate Slider?
 
 Alright, here is proof of concept for the stroke-dasharray animating method. There's a separate, visible range input as the control. There's two svg paths, one is a track/background and the other is a fill, so it's a thermometer fill, basically.
 
