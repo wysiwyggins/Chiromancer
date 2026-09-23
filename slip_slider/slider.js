@@ -20,7 +20,19 @@
   function render(line) {
     const t = (line.range.value - line.range.min) / (line.range.max - line.range.min);
     const hidden = line.len * (1 - t);
-    line.fill.style.strokeDashoffset = (line.from === "end") ? -hidden : hidden;
+
+    if (line.from === "center") {
+      // Grow the dash itself and pull it back by half of what's missing, so it
+      // opens out from the path's midpoint. A round cap paints a dot even at
+      // zero length, so hide the stroke outright when there's nothing to draw.
+      line.fill.style.strokeDasharray = (line.len - hidden) + " " + line.len;
+      line.fill.style.strokeDashoffset = -hidden / 2;
+      line.fill.style.visibility = (t === 0) ? "hidden" : "";
+    } else {
+      line.fill.style.strokeDasharray = line.len;
+      line.fill.style.strokeDashoffset = (line.from === "end") ? -hidden : hidden;
+    }
+
     line.readout.textContent = line.range.valueAsNumber;
   }
 
@@ -28,7 +40,6 @@
   function measure() {
     lines.forEach(function (line) {
       line.len = line.fill.getTotalLength();
-      line.fill.style.strokeDasharray = line.len;
       render(line);
     });
   }
