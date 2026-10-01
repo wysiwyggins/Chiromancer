@@ -1,0 +1,149 @@
+:root {
+  --accent: #be3a2b;
+  --track: rgba(74, 45, 10, 0.22);
+  --background: rgb(255, 178, 36);
+  --ink: #4a2d0a;
+  --hand-height: min(88vh, 900px);
+  --panel-min-width: 340px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: var(--background);
+  color: var(--ink);
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font: 15px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* Grid, not flex — flex was throwing off the SVG's user-unit sizing. */
+.stage {
+  display: grid;
+  grid-template-columns: auto minmax(var(--panel-min-width), max-content);
+  gap: 40px;
+  align-items: center;
+  padding: 24px;
+}
+
+/* Portrait frame (2019x3000), so height is the limiting dimension. */
+#hand {
+  height: var(--hand-height);
+  width: auto;
+}
+
+.line {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.line-track { stroke: var(--track); }
+
+.line-fill {
+  stroke: var(--accent);
+  transition: stroke-width 120ms ease;
+}
+
+.line-fill.is-active { stroke: #7d1f14; }
+
+/* --- control panel --- */
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.panel-title {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+/* One grid for the whole panel so the label column fits the longest name
+   and the sliders stay aligned. */
+.panel-rows {
+  display: grid;
+  grid-template-columns: max-content 1fr 3ch;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.row { display: contents; }
+
+.row-name,
+.row input[type="range"],
+.row-readout {
+  padding-block: 5px;
+}
+.row input[type="text"] {
+  grid-column-end: span 2;
+  margin-right: 6px;
+}
+
+.row.is-active > * { background: rgba(255, 255, 255, 0.35); }
+
+.row-name {
+  font-size: 12px;
+  white-space: nowrap;
+  cursor: pointer;
+  padding-left: 6px;
+}
+
+.row input[type="range"] {
+  width: 100%;
+  min-width: 0;
+  accent-color: var(--accent);
+}
+
+.row-readout {
+  text-align: right;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+  padding-right: 6px;
+}
+
+/* Spans the whole panel grid so it can sit centered under the sliders. */
+.button {
+  grid-column: 1 / -1;
+  justify-self: center;
+  margin-top: 18px;
+  padding: 10px 18px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 120ms ease, color 120ms ease, transform 80ms ease;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.button:active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  transform: translateY(1px);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (max-width: 720px) {
+  .stage {
+    grid-template-columns: min(80vw, 420px);
+    gap: 16px;
+  }
+}

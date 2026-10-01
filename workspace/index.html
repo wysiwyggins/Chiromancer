@@ -9,7 +9,7 @@
 <div class="stage">
 
   <svg id="hand" viewBox="0 0 2019 3000" aria-label="lines of the hand">
-    <image href="./hand.png" x="0" y="0" width="2019" height="3000"/>
+    <image id="hand-image" href="./hand.png" x="0" y="0" width="2019" height="3000"/>
 
     <g id="tracks">
       <path class="line line-track" style="stroke-width:9.5" d="M830.184,1463.06C1139.02,1519.21 1240.81,1786.39 1633.95,1884.46"/>
@@ -124,6 +124,10 @@
         <label class="row-name" for="third-bracelet-range">Third Bracelet</label>
         <input type="range" id="third-bracelet-range" min="0" max="100" step="1" value="100">
         <output class="row-readout" for="third-bracelet-range">100</output>
+      </div>
+
+      <div class="row">
+        <button type="button" class="button" id="random">Randomize 🎲</button>
       </div>
 
     </div>

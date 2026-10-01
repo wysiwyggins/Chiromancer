@@ -44,6 +44,22 @@
     });
   }
 
+  const hands = ["./hand.png", "./hand2.png", "./hand3.png", "./hand4.png"];
+  const handImage = document.getElementById("hand-image");
+
+  document.getElementById("random").addEventListener("click", function () {
+    lines.forEach(function (line) {
+      const min = Number(line.range.min), max = Number(line.range.max);
+      line.range.value = min + Math.floor(Math.random() * (max - min + 1));
+      render(line);
+    });
+
+    // Always pick a different hand so every press visibly changes it.
+    const current = handImage.getAttribute("href");
+    const others = hands.filter(function (h) { return h !== current; });
+    handImage.setAttribute("href", others[Math.floor(Math.random() * others.length)]);
+  });
+
   measure();
   // Re-measure 
   window.addEventListener("load", measure);
