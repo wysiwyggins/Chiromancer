@@ -17,3 +17,5 @@ I don't totally understand how the normalization works, but `t` is the fraction 
 One thing about this method is that if there's a hiccup in page load it can throw it off, so if I add custom fonts it will need to capture `len` again. Also the units that svg use are relative to a parent, so the transforms that inkscape was adding to everything were what made a lot of this so hard. I managed to 'purify' these paths of a bunch of extra junk added by vector drawing apps & should be able to update it with whatever path I make and be ok. (The robo-barfiness of most svg is stuff added by illustrator etc, it can actually be quite clean and readable without it). The unit stuff is still a little brittle though, I noticed that it broke it to put it in a flex element for some reason but the grid element its in now didn't. Something to remember.
 
 Going to play with this a bit and think about how it would feel with a whole hand. Keeping separate sliders would give me an easy place to put the line names and I could have values...
+
+[Build, 09/17](../builds/2026-09-17/)

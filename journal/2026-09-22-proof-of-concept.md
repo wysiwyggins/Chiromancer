@@ -26,3 +26,5 @@ At `visible = 0` the dash is zero-length and nothing draws. As `visible` grows, 
 One possible difference is that `strokeDasharray` has to be set on every update instead of once at measure time, since the dash length is now the thing being animated. Currently `measure()` sets it once and `render()` only touches the offset, so the dasharray assignment moves into `render()` for the center case. I'll have to test this and see what it does.
 
 So `from` becomes three-valued: `start`, `end`, `center`.This is per-line, so the bracelets can grow from the middle while the life line still sweeps up from the wrist. Might also suit the "Girdle of Venus".
+
+[Build, 09/22](../builds/2026-09-22/)

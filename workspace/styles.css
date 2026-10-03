@@ -1,8 +1,9 @@
 :root {
   --accent: #be3a2b;
   --track: rgba(74, 45, 10, 0.22);
-  --background: rgb(255, 178, 36);
+  --background: #FFB224;
   --ink: #4a2d0a;
+  --icy: #9AC4F8;
   --hand-height: min(88vh, 900px);
   --panel-min-width: 340px;
 }
@@ -124,6 +125,10 @@ body {
   cursor: pointer;
   transition: background-color 120ms ease, color 120ms ease, transform 80ms ease;
 }
+
+.button.primary {
+  background-color: var(--icy);
+} 
 
 .button:hover {
   background: rgba(255, 255, 255, 0.35);
