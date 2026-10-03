@@ -1,3 +1,8 @@
+---
+tite: "Air War College Myers-Briggs Type Indicator Applied to Executive Leadership"
+url: "https://archive.org/details/DTIC_ADA288435"
+---
+
 Myers-Briggs Type Indicator Applied to Executive Leadership 
 The Air War College ( AWC)-initiated an executive asressment and development program in 1982. The purpose of the newly initiated program was to strengthen and expand the leadership skills necessary for AWC students to better direct complex organizations upon graduation. During a 1986 AWC curriculum review Major General Todd, Commandant of the Air War College, stated the time had come to expand the executive assessment and development program, beyond a health evaluation and assess the students' personality types to provide them new insights into effective leadership. This project consists of not only the seminar and reading materials that enable the AWC to teach the Myers-Briggs lype Indicator applied to executive leadership, but also the instructional system development (ISD) documentation that substantiates both the need for and the composition of the course. 
 
