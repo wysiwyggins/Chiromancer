@@ -132,13 +132,22 @@
         <button type="button" class="button" id="random">Randomize 🎲</button>
       </div>
       <div class="row">
-        <button type="button" class="button primary" id="random">Play ⚔️</button>
+        <button type="button" class="button primary" id="play">Play ⚔️</button>
       </div>
     </div>
   </div>
 
 </div>
 
+<div id="game-over" class="game-over" hidden>GAME OVER</div>
+
+<div id="story" class="story" hidden>
+  <!-- Tracery output goes here -->
+  <div id="story-text" class="story-text"></div>
+  <button type="button" class="button" id="try-again">Try Again</button>
+</div>
+
 <script type="text/javascript" src="./slider.js"></script>
+<script type="text/javascript" src="./game.js"></script>
 </body>
 </html>
