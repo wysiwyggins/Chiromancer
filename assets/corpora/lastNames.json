@@ -1,6 +1,6 @@
 {
   "description": "Last names of people, pulled from the US Census for the 2000s.",
-  "lastNames": [
+  "lastName": [
     "Smith",
     "Johnson",
     "Williams",

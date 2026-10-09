@@ -1,0 +1,40 @@
+{
+  "fateCrime":      ["#birthBad# #temperamentBad# #youthCrime# #endCrime##coda#"],
+  "fateNeglect":    ["[employer:#occupation#][workplace:#room#]#namingFoundling# #temperamentBad# #youthServitude# #declineNeglect# #deathAlone##coda#"],
+  "fateHubris":     ["#namingDoted# #temperamentGood# #youthPatronage# #turnHubris# #deathAccident##coda#"],
+  "fateDuel":       ["[rivalTitle:#honorific#][rivalName:#lastName#]#namingFamily# #temperamentBad# #youthLovelorn# #declineSulk# #turnSlight# #deathDuel##coda#"],
+  "fateApprentice": ["[mentorTitle:#honorific#][mentorName:#lastName#]#namingBlissful# #temperamentGood# #youthTalent# #turnApprentice# #deathForbidden##coda#"],
+
+  "beast":          ["a wild #animal#", "a wild #animal#", "#monster.a#"],
+
+  "coda":           ["", "", "", "", "", "", "", "", "<blockquote class=\"epigraph\">#fateSpeech#<cite>—Benjamin</cite></blockquote>"],
+
+  "birthBad":        ["You were born #name#, #inauspiciousBeginning#."],
+  "namingFoundling": ["You were named #name# by Sister #firstName#, who accepted you at #foundlingPlace#."],
+  "namingDoted":     ["Your loving #familyMember# named you #name# at birth, an adored only child."],
+  "namingFamily":    ["Your name was #name#, the #nth# child of the small family of a successful #occupation#."],
+  "namingBlissful":  ["You met life as #name#, #moodPositive.a#, bouncy baby."],
+
+  "temperamentBad":  ["You #openerBad#."],
+  "temperamentGood": ["You #openerGood#."],
+
+  "youthCrime":      ["While you developed some #skill# in youth, it only helped accelerate your descent into #vice#, culminating in #crimeAgainst# #occupation.a#."],
+  "youthServitude":  ["In early life you managed to find work as underling to #employer.a# but it was clear you made them #moodNegative# whenever you were in sight, and your duties were kept confined to a mostly disused #workplace#, working late into the night alone."],
+  "youthPatronage":  ["Your #familyMember#, #occupation.a#, set you up for success in life with both scholastic and material support."],
+  "youthLovelorn":   ["While you excelled in your early studies, developing a respectable #skill#, you were reckless in all matters of love, your organ of #propensity# being grossly overdeveloped, shunned by all you approached."],
+  "youthTalent":     ["But even at a young age you showed great #skill# and #skill#."],
+
+  "declineNeglect":  ["Your #skill# and #skill# failed to distinguish you in your employer's eyes and no one noticed when you began to develop #disease#."],
+  "declineSulk":     ["You became #moodNegative# over the years, and scorned all friendly contact, shut away in #room.a#, ashamed."],
+
+  "turnHubris":      ["However your fortune was foreclosed, your happiness a challenge to the fates,"],
+  "turnSlight":      ["One day after feeling you had been slighted #publicPlace# by a character of some renown, #rivalTitle# #rivalName#, you shoved the #rivalTitle# and #incitement#."],
+  "turnApprentice":  ["You quickly found your way into an apprenticeship under the famed #mentorTitle# #mentorName#, and you took to heart the speech the #mentorTitle# gave to #learnedSociety#:<blockquote>#machineSpeech#</blockquote>But it was in the #mentorTitle#'s employ that you met your fate."],
+
+  "endCrime":        ["#deathFlight#", "#imprisonment#"],
+  "deathFlight":     ["You were seized by #lawman# and in a daring attempted escape through both #escapeRoute#, your misadventure ended when you were #attackPast# by #beast# and left to bleed out in #room.a# where you had attempted to take refuge."],
+  "deathAlone":      ["After years of neglect, you finally passed from your malady, alone in your #yuckyAdjective# #workplace#. The coroner recorded the cause as #diagnosis#."],
+  "deathAccident":   ["and you died of #symptom# brought on by #disease# contracted after #accident#."],
+  "deathDuel":       ["The #rivalTitle# challenged you to a duel by #weapon#, and the following morning at dawn, though you tried to #defense#, you sustained a grievous wound to the #bodyPart#. It took #lingering# for you to succumb to your wounds, and your then estranged family was not there to mourn your passing, due to #yourCrime#."],
+  "deathForbidden":  ["In your ambition to grow as great in learning and stature as the #mentorTitle#, you tampered with forces beyond your understanding. Invocations of #ghost.a# did grant you visions of forbidden knowledge, but also darkened your soul and soured your health. Avoiding sunlight and fresh air and taking instead to the back alley and #room#, you soon contracted #disease# from your unconventional, #yuckyAdjective# experiments. The #mentorTitle# tried to intervene, but you died riddled with #yuckyAdjective# #symptom#."]
+}

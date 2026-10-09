@@ -1,0 +1,13 @@
+{
+    "description": "inprisonment alternative to the escape death in fateCrime",
+    "imprisonment": [
+        "You were swiftly apprehended, barely noticed by your judge before his condemnation, and lived out the rest of your short life working in the galleys.",
+        "You were taken by #lawman# before you could flee the parish, and spent your remaining years picking oakum in a damp cell until #disease# carried you off.",
+        "After a trial of scarcely a quarter hour you were sentenced to transportation, and perished of #symptom# in the hold of a convict ship somewhere south of the Cape.",
+        "You were seized by #lawman# and committed to the debtors' wing of the Marshalsea, where your #skill# earned you a little bread but no reprieve, and you died there owing more than when you arrived.",
+        "Condemned to hard labour, you trod the prison wheel for eleven years, until one winter morning the turnkey found you cold upon your cot, your face fixed in an expression of #moodNegative# surprise.",
+        "You were dragged before the assizes by #lawman#, and your sentence was commuted from the gallows to life in the hulks, which proved only the slower of the two roads to the same destination.",
+        "You were apprehended in #room.a#, still clutching the evidence of your crime, and passed the rest of your days in solitary confinement at the new model prison, forbidden to speak, until you forgot how.",
+        "Upon your capture you were confined to Bedlam on the testimony of a phrenologist who found your organ of #propensity# monstrously enlarged, and there you were exhibited to paying visitors until your death from #disease#."
+    ]
+}

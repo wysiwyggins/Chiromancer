@@ -1,7 +1,7 @@
 {
 	"description" : "A list of monsters and other mythic creatures",
 	"sources" : "some from https://en.wikipedia.org/wiki/Mythic_humanoids, others from memory.",
-	"names" : [
+	"monster" : [
 		"angel",
 		"brownie",
 		"bugbear",

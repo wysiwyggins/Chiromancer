@@ -1,6 +1,6 @@
 {
   "description": "Past participles of violent verbs, for 'You will be ... by a #animal#' and coroner's phrasing. Curated from attacks.json.",
-  "attacksPast": [
+  "attackPast": [
     "assailed",
     "beaten",
     "battered",

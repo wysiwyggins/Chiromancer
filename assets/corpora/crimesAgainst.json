@@ -1,0 +1,14 @@
+{
+  "description": "Crimes that take a victim, completing 'culminating in ... #occupation.a#'.",
+  "crimeAgainst": [
+    "the attempted burglary of",
+    "the clumsy blackmail of",
+    "the bungled kidnapping of",
+    "a forgery in the name of",
+    "the poisoning of the dog belonging to",
+    "the attempted swindling of",
+    "an arson upon the house of",
+    "the theft of the false teeth of",
+    "a botched assassination of"
+  ]
+}

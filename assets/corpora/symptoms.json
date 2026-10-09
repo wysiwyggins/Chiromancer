@@ -1,7 +1,7 @@
 {
  "description": "Disease symptoms. From the OBO Symptom Ontology",
  "source": "https://github.com/DiseaseOntology/SymptomOntology",
- "symptoms":
+ "symptom":
  [
   "backache",
   "blindness",
@@ -241,12 +241,10 @@
   "epigastric abdominal rigidity",
   "left upper quadrant abdominal rigidity",
   "multiple sites abdominal rigidity",
-  "underweight",
   "loss of weight",
   "epigastric abdominal swelling",
   "persistent vegetative state",
-  "left lower quadrant abdominal tenderness",
-  "multiple sites abdominal tenderness",
+  "abdominal tenderness",
   "continuous leakage of urine",
   "dysphagia",
   "renal colic",

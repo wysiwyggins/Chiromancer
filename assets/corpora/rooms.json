@@ -1,6 +1,6 @@
 {
   "description": "Different kinds of rooms",
-  "rooms": [
+  "room": [
     "aerary",
     "alcove",
     "anatomical theatre",
@@ -106,6 +106,14 @@
     "weight room",
     "wine cellar",
     "wiring closet",
-    "workshop"
+    "workshop",
+    "underground laboratory",
+    "barred balcony",
+    "abandoned library",
+    "bordello",
+    "gambling hall",
+    "solarium",
+    "diner's club",
+    "executive washroom"
   ]
 }

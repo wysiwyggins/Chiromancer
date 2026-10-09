@@ -1,13 +1,13 @@
 {
   "description": "STUB. Unlucky circumstances of birth, completing 'You were born #name#, ...' (Bad openers).",
-  "inauspiciousBeginnings": [
-    "the #nth# child of a #family size#"
+  "inauspiciousBeginning": [
+    "the #nth# child of a #familySize#",
     "raised in a shack behind an abbatoir",
     "during a thunderstorm, feet first, in a coaching inn",
-    "under a waning moon, to the dismay of the attending physician",
+    "under a waning moon, hirsuite, to the dismay of the attending physician",
     "in a debtors' prison, owing money already",
     "in a drainage ditch, and left there exposed",
     "in a garbage heap behind a workhouse",
-    "in a scullery in a cloud of offal-reeking steam under a halo of flies"
+    "in an offal-reeking scullery, under a halo of flies"
   ]
 }

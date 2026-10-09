@@ -1,8 +1,7 @@
 {
  "description": "Infectious diseases. A subset of the OBO Human Disease Ontology",
  "source": "https://github.com/DiseaseOntology/HumanDiseaseOntology",
- "diseases":
- [
+ "infectiousDisease": [
   "chikungunya",
   "African tick-bite fever",
   "Astrakhan spotted fever",

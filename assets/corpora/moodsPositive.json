@@ -1,6 +1,6 @@
 {
   "description": "Pleasant moods from moods.json, completing 'They were feeling ...'.",
-  "moods": [
+  "moodPositive": [
     "accepted",
     "accomplished",
     "admired",

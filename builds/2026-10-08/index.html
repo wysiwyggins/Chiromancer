@@ -1,0 +1,153 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Chiromancer</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" media="screen" charset="utf-8">
+    <script src="./lib/tracery/tracery.js"></script>
+    <script src="./lib/tracery/mods-eng-basic.js"></script>
+  </head>
+<body>
+
+<div class="stage">
+
+  <svg id="hand" viewBox="0 0 2019 3000" aria-label="lines of the hand">
+    <image id="hand-image" href="./hand.png" x="0" y="0" width="2019" height="3000"/>
+
+    <g id="tracks">
+      <path class="line line-track" style="stroke-width:9.5" d="M830.184,1463.06C1139.02,1519.21 1240.81,1786.39 1633.95,1884.46"/>
+      <path class="line line-track" style="stroke-width:9.5" d="M1022.99,1323.64C1090.33,1428.55 1496.27,1791.83 1780.38,1665.9"/>
+      <path class="line line-track" style="stroke-width:10" d="M794.962,2398.72C1397.81,2562.33 1198.74,1381.03 752.292,1490.97"/>
+      <path class="line line-track" style="stroke-width:9.5" d="M933.4,2394.97C1282.46,2332.24 1146.2,1494.81 783.507,1514.23"/>
+      <path class="line line-track" style="stroke-width:7" d="M1189.16,1210.5C1202.65,1575.25 1223.05,1578.02 1226.89,2448.06"/>
+      <path class="line line-track" style="stroke-width:9.5" d="M1656.35,1548.15C1439.17,1847.44 1124.32,2437.22 1026.97,2430.96"/>
+      <path class="line line-track" style="stroke-width:8.5" d="M1165.06,2449.32C1278.01,2245.76 1342.44,2131.38 1535.29,1780.97"/>
+      <path class="line line-track" style="stroke-width:8" d="M1416.19,1347.51C1399.96,1510.84 1380.34,1624.87 1403.05,1906.39"/>
+      <path class="line line-track" style="stroke-width:6.5" d="M1045.24,1152.97C1078.36,1324.96 1359.95,1564.49 1538.93,1329.96"/>
+      <path class="line line-track" style="stroke-width:8.5" d="M840.572,2477.09C909.692,2517.54 1133.68,2466.52 1202.99,2460.18C1271.79,2453.87 1433.75,2507.2 1576.16,2473.06"/>
+      <path class="line line-track" style="stroke-width:8.5" d="M849.509,2557.14C930.598,2613.12 1139.27,2542.07 1221.25,2548.77C1323.76,2557.16 1435.24,2589.44 1529.59,2560.15"/>
+      <path class="line line-track" style="stroke-width:8.5" d="M885.862,2657.08C972.514,2635.3 1111.26,2635.3 1218.61,2633.6C1322.48,2631.94 1428.04,2676.17 1529.96,2646.83"/>
+    </g>
+
+    <!-- data-from is the end each line grows from -->
+    <g id="fills">
+      <path id="line-of-the-head" class="line line-fill" data-from="start" style="stroke-width:9.5" d="M830.184,1463.06C1139.02,1519.21 1240.81,1786.39 1633.95,1884.46"/>
+      <path id="line-of-the-heart" class="line line-fill" data-from="start" style="stroke-width:9.5" d="M1022.99,1323.64C1090.33,1428.55 1496.27,1791.83 1780.38,1665.9"/>
+      <path id="line-of-life" class="line line-fill" data-from="end" style="stroke-width:10" d="M794.962,2398.72C1397.81,2562.33 1198.74,1381.03 752.292,1490.97"/>
+      <path id="line-of-mars" class="line line-fill" data-from="end" style="stroke-width:9.5" d="M933.4,2394.97C1282.46,2332.24 1146.2,1494.81 783.507,1514.23"/>
+      <path id="line-of-fortune" class="line line-fill" data-from="start" style="stroke-width:7" d="M1189.16,1210.5C1202.65,1575.25 1223.05,1578.02 1226.89,2448.06"/>
+      <path id="line-of-health" class="line line-fill" data-from="end" style="stroke-width:9.5" d="M1656.35,1548.15C1439.17,1847.44 1124.32,2437.22 1026.97,2430.96"/>
+      <path id="via-lascivia" class="line line-fill" data-from="start" style="stroke-width:8.5" d="M1165.06,2449.32C1278.01,2245.76 1342.44,2131.38 1535.29,1780.97"/>
+      <path id="line-of-brilliancy" class="line line-fill" data-from="start" style="stroke-width:8" d="M1416.19,1347.51C1399.96,1510.84 1380.34,1624.87 1403.05,1906.39"/>
+      <path id="girdle-of-venus" class="line line-fill" data-from="center" style="stroke-width:6.5" d="M1045.24,1152.97C1078.36,1324.96 1359.95,1564.49 1538.93,1329.96"/>
+      <path id="first-bracelet" class="line line-fill" data-from="center" style="stroke-width:8.5" d="M840.572,2477.09C909.692,2517.54 1133.68,2466.52 1202.99,2460.18C1271.79,2453.87 1433.75,2507.2 1576.16,2473.06"/>
+      <path id="second-bracelet" class="line line-fill" data-from="center" style="stroke-width:8.5" d="M849.509,2557.14C930.598,2613.12 1139.27,2542.07 1221.25,2548.77C1323.76,2557.16 1435.24,2589.44 1529.59,2560.15"/>
+      <path id="third-bracelet" class="line line-fill" data-from="center" style="stroke-width:8.5" d="M885.862,2657.08C972.514,2635.3 1111.26,2635.3 1218.61,2633.6C1322.48,2631.94 1428.04,2676.17 1529.96,2646.83"/>
+    </g>
+  </svg>
+
+  <div class="panel">
+    <h1>Create Your Character</h1>
+    <h2 class="panel-title">Hand Detail</h2>
+    <div class="panel-rows">
+
+      <div class="row">
+        <label class="row-name" for="name">Character Name</label>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <!-- each range's id is its path's id + "-range" -->
+      <div class="row">
+        <label class="row-name" for="line-of-the-head-range">Line of the Head</label>
+        <input type="range" id="line-of-the-head-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="line-of-the-head-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="line-of-the-heart-range">Line of the Heart</label>
+        <input type="range" id="line-of-the-heart-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="line-of-the-heart-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="line-of-life-range">Line of Life</label>
+        <input type="range" id="line-of-life-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="line-of-life-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="line-of-mars-range">Line of Mars</label>
+        <input type="range" id="line-of-mars-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="line-of-mars-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="line-of-fortune-range">Line of Fortune</label>
+        <input type="range" id="line-of-fortune-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="line-of-fortune-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="line-of-health-range">Line of Health</label>
+        <input type="range" id="line-of-health-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="line-of-health-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="via-lascivia-range">Via Lascivia</label>
+        <input type="range" id="via-lascivia-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="via-lascivia-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="line-of-brilliancy-range">Line of Brilliancy</label>
+        <input type="range" id="line-of-brilliancy-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="line-of-brilliancy-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="girdle-of-venus-range">Girdle of Venus</label>
+        <input type="range" id="girdle-of-venus-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="girdle-of-venus-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="first-bracelet-range">First Bracelet</label>
+        <input type="range" id="first-bracelet-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="first-bracelet-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="second-bracelet-range">Second Bracelet</label>
+        <input type="range" id="second-bracelet-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="second-bracelet-range">100</output>
+      </div>
+
+      <div class="row">
+        <label class="row-name" for="third-bracelet-range">Third Bracelet</label>
+        <input type="range" id="third-bracelet-range" min="0" max="100" step="1" value="100">
+        <output class="row-readout" for="third-bracelet-range">100</output>
+      </div>
+
+      <div class="row">
+        <button type="button" class="button" id="random">Randomize 🎲</button>
+      </div>
+      <div class="row">
+        <button type="button" class="button primary" id="play">Play ⚔️</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div id="game-over" class="game-over" hidden>GAME OVER</div>
+
+<div id="story" class="story" hidden>
+  <!-- Tracery output goes here -->
+  <div id="story-text" class="story-text"></div>
+  <button type="button" class="button" id="try-again">Try Again</button>
+</div>
+
+<script type="text/javascript" src="./slider.js"></script>
+<script type="text/javascript" src="./game.js"></script>
+</body>
+</html>
