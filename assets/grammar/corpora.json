@@ -41,5 +41,11 @@
   "publicPlace":           { "file": "publicPlaces.json" },
   "learnedSociety":        { "file": "learnedSocieties.json" },
   "lingering":             { "file": "lingerings.json" },
-  "imprisonment":          { "file": "inprisonments.json" }
+  "imprisonmentShort":     { "file": "inprisonments.json" },
+  "imprisonmentLong":      { "file": "inprisonments.json" },
+  "deathNeglectShort":     { "file": "deathsNeglectShort.json" },
+  "deathHubrisLong":       { "file": "deathsHubrisLong.json" },
+  "deathDuelLong":         { "file": "deathsDuelLong.json" },
+  "deathApprenticeLong":   { "file": "deathsApprenticeLong.json" },
+  "deathInfant":           { "file": "deathsInfant.json" }
 }

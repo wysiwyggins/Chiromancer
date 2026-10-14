@@ -246,7 +246,20 @@ body {
 
 @media (max-width: 720px) {
   .stage {
-    grid-template-columns: min(80vw, 420px);
+    width: 100%;
+    grid-template-columns: min(100%, 420px);
+    justify-content: center;
     gap: 16px;
+    padding: 16px;
+  }
+
+  /* Size the hand by width instead of height so it fits the column, capped so it
+     never takes more than 70% of the screen height. The image and lines share one
+     viewBox, so they scale together. */
+  #hand {
+    justify-self: center;
+    width: min(100%, calc(70vh * 2019 / 3000));
+    height: auto;
+    aspect-ratio: 2019 / 3000;
   }
 }

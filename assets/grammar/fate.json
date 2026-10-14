@@ -1,9 +1,10 @@
 {
   "fateCrime":      ["#birthBad# #temperamentBad# #youthCrime# #endCrime##coda#"],
-  "fateNeglect":    ["[employer:#occupation#][workplace:#room#]#namingFoundling# #temperamentBad# #youthServitude# #declineNeglect# #deathAlone##coda#"],
-  "fateHubris":     ["#namingDoted# #temperamentGood# #youthPatronage# #turnHubris# #deathAccident##coda#"],
-  "fateDuel":       ["[rivalTitle:#honorific#][rivalName:#lastName#]#namingFamily# #temperamentBad# #youthLovelorn# #declineSulk# #turnSlight# #deathDuel##coda#"],
-  "fateApprentice": ["[mentorTitle:#honorific#][mentorName:#lastName#]#namingBlissful# #temperamentGood# #youthTalent# #turnApprentice# #deathForbidden##coda#"],
+  "fateNeglect":    ["[employer:#occupation#][workplace:#room#]#namingFoundling# #temperamentBad# #youthServitude# #declineNeglect# #endNeglect##coda#"],
+  "fateHubris":     ["#namingDoted# #temperamentGood# #youthPatronage# #turnHubris# #endHubris##coda#"],
+  "fateDuel":       ["[rivalTitle:#honorific#][rivalName:#lastName#]#namingFamily# #temperamentBad# #youthLovelorn# #declineSulk# \n\n #turnSlight# #endDuel##coda#"],
+  "fateApprentice": ["[mentorTitle:#honorific#][mentorName:#lastName#]#namingBlissful# #temperamentGood# #youthTalent# #turnApprentice# #endApprentice##coda#"],
+  "fateInfant":     ["#deathInfant##coda#"],
 
   "beast":          ["a wild #animal#", "a wild #animal#", "#monster.a#"],
 
@@ -19,7 +20,7 @@
   "temperamentGood": ["You #openerGood#."],
 
   "youthCrime":      ["While you developed some #skill# in youth, it only helped accelerate your descent into #vice#, culminating in #crimeAgainst# #occupation.a#."],
-  "youthServitude":  ["In early life you managed to find work as underling to #employer.a# but it was clear you made them #moodNegative# whenever you were in sight, and your duties were kept confined to a mostly disused #workplace#, working late into the night alone."],
+  "youthServitude":  ["In early life you managed to find work as underling to #employer.a# but it was clear you made them #moodNegative# whenever you were in sight, and your duties were kept confined to a mostly disused #workplace#, working late into the night alone. \n\n"],
   "youthPatronage":  ["Your #familyMember#, #occupation.a#, set you up for success in life with both scholastic and material support."],
   "youthLovelorn":   ["While you excelled in your early studies, developing a respectable #skill#, you were reckless in all matters of love, your organ of #propensity# being grossly overdeveloped, shunned by all you approached."],
   "youthTalent":     ["But even at a young age you showed great #skill# and #skill#."],
@@ -31,7 +32,17 @@
   "turnSlight":      ["One day after feeling you had been slighted #publicPlace# by a character of some renown, #rivalTitle# #rivalName#, you shoved the #rivalTitle# and #incitement#."],
   "turnApprentice":  ["You quickly found your way into an apprenticeship under the famed #mentorTitle# #mentorName#, and you took to heart the speech the #mentorTitle# gave to #learnedSociety#:<blockquote>#machineSpeech#</blockquote>But it was in the #mentorTitle#'s employ that you met your fate."],
 
-  "endCrime":        ["#deathFlight#", "#imprisonment#"],
+  "endCrimeShort":      ["#deathFlight#", "#imprisonmentShort#"],
+  "endCrimeLong":       ["#imprisonmentLong#"],
+  "endNeglectShort":    ["#deathNeglectShort#"],
+  "endNeglectLong":     ["#deathAlone#"],
+  "endHubrisShort":     ["#deathAccident#"],
+  "endHubrisLong":      ["and #deathHubrisLong#"],
+  "endDuelShort":       ["#deathDuel#"],
+  "endDuelLong":        ["#deathDuelLong#"],
+  "endApprenticeShort": ["#deathForbidden#"],
+  "endApprenticeLong":  ["#deathApprenticeLong#"],
+
   "deathFlight":     ["You were seized by #lawman# and in a daring attempted escape through both #escapeRoute#, your misadventure ended when you were #attackPast# by #beast# and left to bleed out in #room.a# where you had attempted to take refuge."],
   "deathAlone":      ["After years of neglect, you finally passed from your malady, alone in your #yuckyAdjective# #workplace#. The coroner recorded the cause as #diagnosis#."],
   "deathAccident":   ["and you died of #symptom# brought on by #disease# contracted after #accident#."],

@@ -1,0 +1,7 @@
+{
+    "description": "Stillbirths and deaths in infancy for fateInfant, used when the life line is at zero. Each entry is the whole fate, so it should name #name#.",
+    "deathInfant": [
+        "You were to have been called #name#, but you came into the world already gone from it, and the midwife wrapped you in plain linen before your mother could see you. Your #familyMember# wrote your name in the family Bible all the same, and crossed it out that same night.",
+        "You were baptised #name# in haste, the curate fearing the worst, and the curate was right: before you had cut your first tooth you were carried off by #disease#, and buried in a box no bigger than a hatbox in the corner of the churchyard kept for such cases."
+    ]
+}

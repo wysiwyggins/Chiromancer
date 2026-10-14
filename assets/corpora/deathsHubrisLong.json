@@ -1,0 +1,6 @@
+{
+    "description": "Long-life deaths for fateHubris. The grammar puts 'and ' in front, so each entry continues 'your happiness a challenge to the fates, and ...' in lowercase.",
+    "deathHubrisLong": [
+        "the fates, being patient, took their time: you outlived your fortune, your #familyMember#, and every friend of your youth, and died at a great age of #disease# in #room.a# let by the week, your #skill# long forgotten by all but yourself."
+    ]
+}

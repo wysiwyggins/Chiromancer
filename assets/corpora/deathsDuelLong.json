@@ -1,0 +1,8 @@
+{
+    "description": "Long-life deaths for fateDuel, following the slight against #rivalTitle# #rivalName#.",
+    "deathDuelLong": [
+        "The #rivalTitle# demanded satisfaction by #weapon#, but you fled the city that same night and spent the remaining decades of your life under an assumed name in a provincial town, flinching at every knock. You died an old and #moodNegative# recluse, of #disease#, and the #rivalTitle#, who had long since forgotten you, outlived you by a year.",
+        "You met #rivalTitle# at dawn with #weapon# as planned. Your attempt #defense# succeeded and you #attackPast# your foe mortally. Your triumph was short-lived however, since you had traded satisfaction for your life as a free man. /n  As a fugitive you moved from town to town, taking odd jobs, never making friends or finding love. The fame of your fallen adversary and the common knowledge of the duel haunted you into old age. You died alone and unfulfilled."
+
+    ]
+}

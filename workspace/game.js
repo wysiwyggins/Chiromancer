@@ -7,8 +7,8 @@
 
  
   let characterName = "";
-  // Keyed by line id, true when the slider is at or past halfway.
-  let lineFlags = {};
+  // Keyed by line id, how far along its slider is, from 0 to 1.
+  let lineLengths = {};
 
   function getJSON(url) {
     return fetch(url).then(function (response) { return response.json(); });
@@ -51,9 +51,14 @@
   });
 
 
+  // A line is long when its slider is at or past halfway.
+  function isLong(lengths, line) {
+    return lengths[line] >= 0.5;
+  }
+
   // Lists the variant for a pair of lines as [both long, first long only, second long only, both short].
-  function pair(flags, first, second, options) {
-    return options[(flags[first] ? 0 : 2) + (flags[second] ? 0 : 1)];
+  function pair(lengths, first, second, options) {
+    return options[(isLong(lengths, first) ? 0 : 2) + (isLong(lengths, second) ? 0 : 1)];
   }
 
   // Head and heart choose the fate, in pair() order. A slot with more than one fate picks at random.
@@ -70,12 +75,24 @@
     });
   }
 
-  function generateFate(raw, name, flags) {
-    const choices = pair(flags, "line-of-the-head", "line-of-the-heart", fates);
-    const form = choices[Math.floor(Math.random() * choices.length)];
+  function generateFate(raw, name, lengths) {
+    const choices = pair(lengths, "line-of-the-head", "line-of-the-heart", fates);
+    let form = choices[Math.floor(Math.random() * choices.length)];
+    // No life line at all overrides head and heart: you never got old enough for them to matter.
+    if (lengths["line-of-life"] === 0) form = "fateInfant";
+
+    // Life doesn't change the fate, only how it ends: every fooShort/fooLong pair becomes a foo rule pointing at one half.
+    const span = isLong(lengths, "line-of-life") ? "Long" : "Short";
+    const lifeRules = {};
+    Object.keys(raw).forEach(function (rule) {
+      if (rule.endsWith("Short") && raw[rule.replace(/Short$/, "Long")]) {
+        const base = rule.replace(/Short$/, "");
+        lifeRules[base] = ["#" + base + span + "#"];
+      }
+    });
 
     // The fate is HTML (for blockquotes), so the typed name is escaped
-    const grammar = tracery.createGrammar(Object.assign({}, raw, { name: [escapeHTML(name)] }));
+    const grammar = tracery.createGrammar(Object.assign({}, raw, lifeRules, { name: [escapeHTML(name)] }));
     grammar.addModifiers(baseEngModifiers);
 
     return { text: grammar.flatten("#" + form + "#"), form: form };
@@ -103,13 +120,12 @@
     characterName = nameInput.value.trim();
     if (!characterName) characterName = await randomName();
 
-    lineFlags = {};
+    lineLengths = {};
     ranges.forEach(function (range) {
-      const t = (range.value - range.min) / (range.max - range.min);
-      lineFlags[range.id.replace(/-range$/, "")] = t >= 0.5;
+      lineLengths[range.id.replace(/-range$/, "")] = (range.value - range.min) / (range.max - range.min);
     });
 
-    const fate = generateFate(await grammarReady, characterName, lineFlags);
+    const fate = generateFate(await grammarReady, characterName, lineLengths);
     storyText.innerHTML = fate.text;
     storyText.className = "story-text is-" + fate.form;
     story.classList.remove("is-visible");
@@ -135,6 +151,6 @@
     });
 
     characterName = "";
-    lineFlags = {};
+    lineLengths = {};
   });
 }

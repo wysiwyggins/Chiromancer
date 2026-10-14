@@ -28,7 +28,7 @@ player tried an ai prompt injection in the name field (probably just as a joke) 
 
 ### player-2
 
-I tried to play with the sliders a bit. All at 0 vs all at 100 was fun.
+> I tried to play with the sliders a bit. All at 0 vs all at 100 was fun.
 
 > minor sources of frustration (which may a good thing) :
 
