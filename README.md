@@ -12,7 +12,9 @@ The character creation screen is a recurring feature in computer role-playing ga
 
 Games involving random number generation that emulate analog games of chance depend on actors with quantifiable features in order to model asymmetrical combat.
 
-How do these sorts of quantified characters connect to pre-modern ideas of fate and character?
+Creating a character in some games is a pre-game creative interaction that involves choosing the body shape, gender, facial characteristics, and sometimes clothing and hairstyles of the player character.
+
+How do these sorts of quantified, designed characters connect to pre-modern ideas of fate and character?
 
 In digital computers, randomly generated numbers can be unpredictable but they are never truly random, as computation is deterministic.
 
@@ -48,6 +50,16 @@ One of the default forms of software-as-art I see over and over in creative codi
 
 ---
 
+## Works Cited
+
+Barr, Pippin. 2026. “Chiromancer/Journal/2026-10-26-Feedback.Md at Main · Wysiwyggins/Chiromancer.” October 26. <https://github.com/wysiwyggins/Chiromancer/blob/main/journal/2026-10-26-feedback.md>.
+Beemis, Richard, D’arpentigny, and Desparrolles. 1864. Psychonomy of the Hand. Frederick Pitman.
+Buck-Morss, Susan. 1989. The Dialectics of Seeing: Walter Benjamin and the “Arcades Project.” Studies in Contemporary German Social Thought. MIT press.
+Downing, Eric. 2011. “Divining Benjamin: Reading Fate, Graphology, Gambling.” MLN 126 (3): 561–80. <https://doi.org/10.1353/mln.2011.0036>.
+Peirce, Charles Sanders. 1877. “The Fixation of Belief.” Popular Science Monthly, November 12.
+Pipkin, Everest. 2016. A Long History of Generated Poetics Cutups from Dickinson to Melitzah.
+
+---
 [^1]: This may have been misleadingly reductive on my part, as *Fate and Character* does a lot of complex work to recover the idea of divination for metaphysics, if not for real life claims of some pre-existing supernatural connection between signs and fate.
 
-> alongside Benjamin's emphatic rejection of occult magic and its divinatory impulses there is an equally emphatic investment in precisely the magical traditions and divinatory practices we can trace from antiquity throughout the early modern period and even into Romanticism. For this reason it seems more accurate to claim, not that Benjamin is committed to the disenchantment of magic reading in his work, but that he is intent on clearing space for re-approaching and reasserting its truths. Not, then, to refute magic reading and assign it to some long lost past but, in however "weak" a form, to redeem it and its future.
+> alongside Benjamin's emphatic rejection of occult magic and its divinatory impulses there is an equally emphatic investment in precisely the magical traditions and divinatory practices we can trace from antiquity throughout the early modern period and even into Romanticism. For this reason it seems more accurate to claim, not that Benjamin is committed to the disenchantment of magic reading in his work, but that he is intent on clearing space for re-approaching and reasserting its truths. Not, then, to refute magic reading and assign it to some long lost past but, in however "weak" a form, to redeem it and its future. (Downing 2011)
