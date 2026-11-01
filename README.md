@@ -62,12 +62,12 @@ Second, would a point budget, or Barr's suggestion of a version that tells the s
 
 ## Works Cited
 
-Barr, Pippin. 2026. “Chiromancer/Journal/2026-10-26-Feedback.Md at Main · Wysiwyggins/Chiromancer.” October 26. <https://github.com/wysiwyggins/Chiromancer/blob/main/journal/2026-10-26-feedback.md>.
-Beemis, Richard, D’arpentigny, and Desparrolles. 1864. Psychonomy of the Hand. Frederick Pitman.
-Benjamin, Walter. 1978. “Fate and Character.” In Reflections: Essays, Aphorisms, Autobiographical Writings, edited by Peter Demetz, translated by Edmund Jephcott. Harcourt Brace Jovanovich.
-Buck-Morss, Susan. 1989. The Dialectics of Seeing: Walter Benjamin and the “Arcades Project.” Studies in Contemporary German Social Thought. MIT press.
-Cheiro. 1916. Palmistry for All. G. P. Putnam’s Sons.
-Peirce, Charles Sanders. 1877. “The Fixation of Belief.” Popular Science Monthly, November 12.
+Barr, Pippin. 2026. “Chiromancer/Journal/2026-10-26-Feedback.Md at Main · Wysiwyggins/Chiromancer.” October 26. <https://github.com/wysiwyggins/Chiromancer/blob/main/journal/2026-10-26-feedback.md>.  
+Beemis, Richard, D’arpentigny, and Desparrolles. 1864. Psychonomy of the Hand. Frederick Pitman.  
+Benjamin, Walter. 1978. “Fate and Character.” In Reflections: Essays, Aphorisms, Autobiographical Writings, edited by Peter Demetz, translated by Edmund Jephcott. Harcourt Brace Jovanovich.  
+Buck-Morss, Susan. 1989. The Dialectics of Seeing: Walter Benjamin and the “Arcades Project.” Studies in Contemporary German Social Thought. MIT press.  
+Cheiro. 1916. Palmistry for All. G. P. Putnam’s Sons.  
+Peirce, Charles Sanders. 1877. “The Fixation of Belief.” Popular Science Monthly, November 12.  
 
 ---
 
